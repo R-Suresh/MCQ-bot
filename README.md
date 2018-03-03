@@ -6,3 +6,5 @@ Remove all unnecessary stuff from it .
 Make the entire file as a single paragraph.
 
 Also make sure the modified file at each stage is in ansi encoding
+
+Added notes about possible architecture to model_architecture.txt

@@ -1,0 +1,23 @@
+To make model - notes about architecture
+
+Problems with fixed size encoder - decoder
+
+1. Can handle only fixed size sequences
+2. Representaion of words - softmax over entire vocabulary is too expensive
+  ( possible one - hot representation of words )
+
+Solution -
+
+1. To handle variable size inputs - padding
+  a. EOS
+  b. GO
+  c. PAD
+  d. UNK
+
+2. Further more if size of max sequence is too large - PAD charecter overshadows 
+   important information
+   So, we use buckets - different model for each bucket while training and testing
+   Example - (5 ,10 ) , (10 ,20 ),(a ,b )
+                                  a : number of symbols (words) in input
+                                  b : number of symbols (words) in answer
+3. Use of word embeddings - to represent words instead of one - hot encoding

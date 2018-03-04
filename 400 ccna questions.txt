@@ -1,0 +1,1570 @@
+1. what is the structure or format of data called? Syntax
+
+
+
+2. what was the first network called? ARPANET
+
+
+
+3. Which type of transmission does a communication between a computer and a keyboard involve? simplex
+
+
+
+4. what is the physical path over which a message travels? medium
+
+
+
+5.which organization has authority over interstate and international commerce in the communication field? Federal communications commission
+
+
+
+6. what is a set of rules that governs data communications called? Protocol
+
+
+
+7. what kind of connection does three or more devices have if they share the link? Multipoint
+
+
+
+8. when a collection of various computers seems a single coherent system to its client, then what is it called? Distributed system
+
+
+
+9. When does network congestion occur? in case of traffic overloading
+
+
+
+10. what type of network is a bluetooth an example of? personal area network
+
+
+
+11. What type of network has a communication channel which is shared by all the machines on the network ? Broadcast network
+
+
+
+12. which device forwards packets between networks by processing the routing information included in the packet? Router
+
+
+
+13. what is a list of protocols used by a system, one protocol per layer? Protocol stack
+
+
+
+14.Which computer network is built on the top of another network? Overlay network
+
+
+
+15. what is the number of layers in Internet protocol stack
+
+
+
+16. what is the number of layers in ISO OSI reference mode? Seven
+
+
+
+17. where is the application layer implemented? end system
+
+
+
+18. where is the transport layer implemented? End system
+
+
+
+19. What are the functionalities of the presentation layer? Data compression, Data encryption, Data description
+
+
+
+20. Which layer provides Delimiting and synchronization of data exchange? Session layer
+
+
+
+21. In OSI model, when data is sent from device A to device B, which is the 5th layer to receive data at B? Session layer
+
+
+
+22. In Internet protocol stack, when data is sent from device A to device B, which is the 5th layer to receive data at B? Application layer
+
+
+
+23. In the OSI model, as a data packet moves from the lower to the upper layers, what action is performed to the headers? Removed
+
+
+
+24. What does OSI stand for? Open system interconnection
+
+
+
+25. How many layers does the OSI model have? Seven
+
+
+
+26. how many layers does the TCP/IP model have? Five
+
+
+
+27. which layers does the OSI model have, but the TCP/IP model doesn’t? Session layer and presentation layer
+
+
+
+28. Which layer links the network support layers and user support layers? Transport layer
+
+
+
+29. Which addresses is used in an internet employing the TCP/IP protocols? physical address and logical address, port address, specific address
+
+
+
+30. Which layer is responsible for process to process delivery? transport layer
+
+
+
+31. Which address identifies a process on a host?port address
+
+
+
+32.Which layer provides the services to user? Application layer
+
+
+
+33. which layer decides Transmission data rate? Physical layer
+
+
+
+34. what services are provided by DSL telco? Wired phone access and ISP 
+
+
+
+35. what is the function of DSLAM? Convert analog signals to digital signals
+
+
+
+36. Which cables do HFC contain? Fiber and coaxial
+
+
+
+37. Which type of access does StarBand provide? Satellite access
+
+
+
+38. what are the factors affecting transmission rate in DSL? the gauge of the twisted pair line and degree of electrical interference 
+
+
+
+39. Which cable is used to connect the splitter to ONT? Optical cable
+
+
+
+40. What does the physical layer concentrate on? Bit by bit delivery 
+
+
+
+41.Which transmission media has the highest transmission speed in a network? Optical fiber
+
+
+
+42. Which type of modulation can we use to send bits over guided and unguided media as analog signal ? Digital modulation
+
+
+
+43. what is the portion of physical layer that interfaces with the media access control sublayer? Physical signaling sublayer
+
+
+
+44. What does the physical layer provide in asynchronous serial communication? Start and stop signaling and flow control
+
+
+
+45. what is the physical layer is responsible for? line coding, channel coding and modulation
+
+
+
+46. Which phenomenon requires a single channel is shared by multiple signals? Multiplexing
+
+
+
+47. The physical layer translates logical communication requests into hardware specific operations from which layer? Datalink layer
+
+
+
+48. what are the functions of the data link layer? Framing, error control and flow control
+
+
+
+49. Which sublayer of the data link layer performs data link functions that depend upon the type of medium? media access control sublayer
+
+
+
+50. What does the header of a frame contain? synchronization bytes, addresses and frame identifier
+
+
+
+51. which sublayer provides Automatic repeat request error management mechanism is? Logical link control sublayer
+
+
+
+52. When 2 or more bits in a data unit has been changed during the transmission, what is the error is called? burst error
+
+
+
+53. What does CRC stand for? Cyclic redundancy check
+
+
+
+54. which are the two types of the multiple access protocol for channel access control? CSMA/CD and CSMA/CA
+
+
+
+55. what are the different data link protocols? Ethernet, point to point protocol and HDLC
+
+
+
+56. what is the technique of temporarily delaying outgoing outgoing acknowledgements so that they can be hooked onto the next outgoing data frame called? piggybacking
+
+
+
+57. what is the data units handled by the network layer called? Packets
+
+
+
+58. what are the functions of the network layer? Routing, inter-networking and congestion control
+
+
+
+59. what does the 4 byte IP address consists of? Network address and host address
+
+
+
+60. what identifies a packet belonging to a particular virtual circuit? Virtual Circuit number
+
+61. What are the different routing algorithms used in the network layer? Shortest path algorithm, distance vector routing, link state routing
+
+
+
+62. What is a subset of a network that includes all the routers but contains no loops called? Spanning tree
+
+
+
+63. what are the algorithms used for congestion control? Traffic aware routing, admission control and load shedding
+
+
+
+64. Which is the protocol used in the network layer of the internet? internet protocol
+
+
+
+65. What is the ICMP is primarily used for? Error and diagnostic functions
+
+
+
+66. which transport protocols are used in the internet? TCP and UDP
+
+
+
+67. Why is the User datagram protocol is called connectionless? all UDP packets are treated independently by transport layer
+
+
+
+68. which type of protocol is TCP? Connection oriented protocol
+
+
+
+69. what does the TCP use to establish a connection? Three way handshake
+
+
+
+70. what is an endpoint of an inter-process communication flow across a computer network? socket
+
+
+
+71. what is the Socket-style API for windows? Windsock
+
+
+
+72. Name a version of UDP with congestion control? Datagram congestion control protocol
+
+
+
+73. What is a TCP name for a transport service access point? Port
+
+
+
+74. what type of communication does Transport layer protocols deals with? Process to process communication
+
+ 
+
+75. stream control transmission protocol is a type of which layer protocol? Transport layer protocol
+
+
+
+76. what is the Physical or logical arrangement of network called? Topology
+
+
+
+77. which type of topology contains a hub? Star
+
+
+
+78. Which type of connection does the bus topology require? Multipoint connection
+
+
+
+79. What is the type of Data communication system spanning states, countries, or the whole world called? WAN
+
+
+
+80.what is the type of Data communication system within a building or campus called? LAN
+
+
+
+81. what does PAN stand for? personal area network
+
+
+
+82. what does MAN stand for? Metropolitan area network
+
+
+
+83. what does WAN stand for? wide area network
+
+
+
+84. what does LAN stand for? local area network
+
+
+
+85. In TDM, what are slots are further divided into? Frames
+
+
+
+86. which type of Multiplexing technique that shifts each signal to a different carrier frequency? FDM
+
+
+
+87. what is the sharing of a medium and its link by two or more devices called? Multiplexing
+
+
+
+88. what type of switching uses multiplexing? Circuit switching
+
+
+
+89. Which multiplexing technique transmits digital signals ? TDM
+
+
+
+90. If there are N signal sources of same data rate than TDM link has how many slots? N
+
+
+
+91. What is the state when dedicated signals are idle called? Silent period
+
+
+
+92. what can multiplexing provide? Efficiency and privacy
+
+
+
+93. Which multiplexing technique shifts each signal to a different carrier frequency? FDM
+
+
+
+94. What are the types of delays faced by the packet in traveling from one end system to another? Propagation delay, Queuing delay and transmission delay
+
+
+
+95. What is the time required to examine the packet’s header and determine where to direct the packet is part of? Processing delay
+
+
+
+96. In a network, If P is the only packet being transmitted and there was no earlier transmission, which of the delays could be zero? Queuing delay
+
+
+
+97. what does Transmission delay depend on? Packet length and transmission rate
+
+
+
+98. What does propagation delay depend on? distance between the nodes
+
+
+
+99. what are the attackers a network of compromised devices known as? Botnet
+
+
+
+100. What are the different forms of DoS attacks? Vulnerability attack, Bandwidth flooding and Connection flooding
+
+
+
+101. which form of DoS attack is the one in which the attacker establishes a large number of half-open or fully open TCP connections at the target host? Connection flooding
+
+
+
+102. Which form of DoS attack is the one in which the attacker sends deluge of packets to the targeted host? Bandwidth flooding
+
+
+
+103. what do Packet sniffers involve?passive receiver
+
+
+
+104. Where can sniffers be deployed in? Wired environment, ethernet LAN and WiFi
+
+
+
+105. what are firewalls configured to block? UDP traffic
+
+
+
+106. Coaxial cable usually consists of how many copper conductors? Two
+
+
+
+107. What are the properties of fiber optics? Immune electromagnetic interference, Very less signal attenuation and Very hard to tap
+
+
+
+108. how many groups are Terrestrial radio channels are broadly classified into? Three
+
+
+
+109. why are radio channels attractive? Because they can penetrate walls, Connectivity can be given to mobile user and Can carry signals for long distance
+
+
+
+110. Which satellites are placed at fixed point above the earth? Geostationary satellites
+
+
+
+111. A local telephone network is an example of a which typeof network? Packet switched
+
+
+
+112. Which principle do most packet switches use? Store and forward
+
+
+
+113. what are the different methods to move data through a network of links and switches? Packet switching and circuit switching
+
+
+
+114. What are the services offered by application layer?  Network virtual terminal, File transfer, access, and management and Mail service
+
+
+
+115. In which type of switching resources are allocated on demand?packet switching
+
+
+
+116. As the resources are reserved between two communicating end systems in circuit switching, what is achieved? Guaranteed constant rate
+
+
+
+117. The resources needed for communication between end systems are reserved for the duration of session between end systems in which type of switching? Circuit switching
+
+
+
+118. HTTP is an example of which layer protocol? Application layer
+
+
+
+119. SMTP is an example of which layer protocol? Application layer
+
+
+
+120. FTP is an example of which layer protocol? Application layer
+
+121. What is the packet of information at the application layer is called? message
+
+
+
+122.  what is an Application developer permitted to decide on transport layer side? Transport layer protocol and maximum buffer size
+
+
+
+123.  what kind of service does application layer offer? end to end
+
+
+
+124. Which type of application is Email an example of? Elastic application
+
+
+
+125. To deliver a message to the correct application program running on a host, which address must be consulted? Port address
+
+
+
+126. Internet telephony is an example of what type of service? Time sensitive service
+
+
+
+127. Electronic mail uses which Application layer protocol? SMTP
+
+
+
+128.  What translates internet domain and host names to IP address? DNS
+
+
+
+129. Which protocol allows a user at one site to establish a connection to another site and then pass keystrokes from local host to remote host? Telnet
+
+
+
+130. Which protocol delivers/stores mail to receiver server? SMTP
+
+
+
+131. what is the ASCII encoding of binary data is called? Base 64 encoding
+
+
+
+132. Which protocol is an internet standard protocol for managing devices on IP network? simple newtwork management protocol
+
+
+
+133. Which protocol is a signalling communication protocol used for controlling multimedia communication sessions? session initiation protocol
+
+
+
+134. When displaying a web page, the application layer uses which protocol? HTTP protocol
+
+
+
+135. What is the default connection type used by HTTP? Persistent
+
+
+
+136. what is the time taken by a packet to travel from client to server and then back to the client is called ? Round trip time
+
+
+
+137. The HTTP request message is sent in which part of three-way handshake? Third
+
+
+
+138. In the process of fetching a web page from a server the HTTP request/response takes how many RTTs? One
+
+
+
+139.  what is the first line of HTTP request message called? Request line
+
+
+
+140. The values GET, POST, HEAD etc are specified in which part of HTTP message? Request line
+
+
+
+141. Which method when used in the method field, leaves entity body empty? GET
+
+
+
+142. The HTTP response message leaves out the requested object when which method is used? HEAD
+
+
+
+143.  Which mechanism helps to keep a cache up to date? Conditional GET
+
+
+
+144. what is is present in both an HTTP request line and a status line? HTTP version number
+
+
+
+145. Multiple object can be sent over a TCP connection between client and server in which type of HTTP? persistent HTTP
+
+
+
+146.  HTTP is an example of which layer protocol? application layer
+
+
+
+147. What are the resources located by in the network protocol? Uniform resource identifier
+
+
+
+148.  HTTP client requests by establishing which type of connection to a particular port on the server? TCP
+
+
+
+149. FTP server listens for connection on which port number? 21
+
+
+
+150. In FTP protocol, client contacts server using ____ as the transport protocol? TCP
+
+
+
+151. In which mode of FTP does the client initiate both the control and data connections? passive mode
+
+
+
+152. The file transfer protocol is built on which type of architecture? client server architecture
+
+
+
+153.  In file transfer protocol, data transfer can be done in which different modes? Stream mode, block mode and compressed mode
+
+
+
+154. what does FTP stand for? File transfer protocol
+
+
+
+155.  FTP uses how many parallel TCP connections to transfer a file? Two
+
+
+
+156.  The commands, from client to server, and replies, from server to client, are sent across the control connection in how many bit ASCII format? 7
+
+
+
+157. which command is used to send password to the server? PASS
+
+
+
+158.  When the mail server sends mail to other mail servers which type of client does it act as? SMTP client
+
+
+
+159. If you have to send multimedia data over SMTP it has to be encoded into which format? ASCII
+
+
+
+160. what does SMTP stand for? Simple Mail Transfer Protocol
+
+
+
+161. In SMTP, the command to write receivers mail address is written with which command? RCPT TO
+
+
+
+162. Which underlying Transport layer protocol is used by SMTP? TCP
+
+
+
+163. Internet mail places each object in how many messages? one
+
+
+
+164. which TCP port is used by SMTP? Port number 25
+
+
+
+166. how many transactions does a session involve? Zero or more
+
+167. When the sender and the receiver of an email are on different systems, how many UAs and how many MTAs are required? 2 UA and two pairs of MTA
+
+
+
+168. Simple mail transfer protocol (SMTP) utilizes which protocol as the transport layer protocol for electronic mail transfer? TCP
+
+
+
+169. What are SMTP connections secured by SSL are known as? SMTPS
+
+
+
+170. Which TCP port does SMTP use? port number 25
+
+
+
+171.What is on-demand mail relay (ODMR)? an SMTP extension
+
+
+
+172. An email client needs to know which address of its initial SMTP server? IP address
+
+
+
+173. what does an SMTP define? message transport
+
+
+
+174. Which SMTP server is configured in such a way that anyone on the internet can send e-mail through it? open mail relay
+
+
+
+175. Where does an SMTP deliver messages to? User’s terminal or user’s mailbox
+
+
+
+176. the host name can have a maximum of how many characters? 255 characters
+
+
+
+177. what is DNS client called? DNS resolver
+
+
+
+178. how do Servers handle requests for other domains? by contacting remote DNS server
+
+
+
+179. If a server has no clue about where to find the address for a hostname then what does it do? server asks to the root server
+
+
+
+180. Which type of DNS allows client to update their DNS entry as their IP address change? dynamic DNS
+
+
+
+181. what does a Wildcard domain name start with? ‘*’ label
+
+
+
+182. The right to use a domain name is delegated by domain name registers are accredited by which legal body? internet corporation for assigned names and numbers
+
+
+
+183.The domain name system is maintained by which system? distributed database system
+
+
+
+184. Secure shell (SSH) network protocol is used for what purposes? secure data communication, remote command-line login and remote command execution
+
+
+
+185. SSH can be used in only which operating systems? unix-like operating systems and windows
+
+
+
+186. What does the SSH use to to authenticate the remote computer?  public-key cryptography
+
+
+
+187. Which standard TCP port is assigned for contacting SSH servers? Port number 22
+
+
+
+188. Which protocols can be used for login to a shell on a remote host except SSH? telnet and rlogin
+
+
+
+189. Which file transfer protocol uses SSH? SCP, SFTP and Rsync
+
+
+
+190. SSH-2 does not contain which layer? Physical layer
+
+
+
+191. SCP protocol is evolved from which protocol over SSH? RCP protocol
+
+
+
+192. Which one of the following authentication method is used by SSH? public-key, host based and password
+
+
+
+193.DHCP (dynamic host configuration protocol) provides which address to the client? IP address
+
+
+
+194. Which server maintains the information about client configuration parameters? DHCP server
+
+
+
+195. Which server grants a IP address when receives a request from a client? DHCP server
+
+196. IP assigned for a client by DHCP server is for what period? A limited period
+
+
+
+197. DHCP uses which UDP port for sending data to the server? Port 67
+
+
+
+198.what are the different allocations of the IP address that can be provided by the DHCP server? Dynamic, automatic and static allocation
+
+
+
+199. How do DHCP clients and servers on the same subnet communicate? UDP broadcast
+
+
+
+200. After obtaining the IP address, to prevent the IP conflict the client may use which protocol? ARP
+
+
+
+201. What is DHCP snooping? techniques applied to ensure the security of an existing DHCP infrastructure
+
+
+
+202. If DHCP snooping is configured on a LAN switch, then clients having which address can access the network? MAC and IP address
+
+
+
+203.IPsec is designed to provide the security at which layer? Network layer
+
+
+
+204. What does the IPsec protect in the tunnel mode? The IP packet
+
+
+
+205. what an extension of an enterprise’s private intranet across a public Network such as the Internet across a public Network such as the Internet, creating a secure private connection? VPN
+
+
+
+206. authentic header is an essential component of what? IP security
+
+
+
+207. encapsulating security payload is an essential component of what? IP security
+
+
+
+208. internet key exchange is an essential component of what? IP security
+
+
+
+209. WPA2 is best used with what? WiFi connection
+
+
+
+210. what is an attempt to make a computer resource unavailable to its intended users called? Denial of service attack
+
+211.  where is Pretty good privacy (PGP) used? Email security
+
+
+
+212.  Extensible authentication protocol is authentication framework frequently used where? Wireless network
+
+
+
+213.  PGP encrypts data by using which block cipher algorithm? International data encryption algorithm
+
+
+
+214. When a DNS server accepts and uses incorrect information from a host that has no authority giving that information, what is this called? DNS spoofing
+
+
+
+215. When were VPNs introduced into the commercial world? Late 90’s
+
+
+
+216. What are the protocol used in the operation of a VPN? PPTP, IPsec and L2TP
+
+
+
+217. Which layer 3 protocols can be transmitted over a L2TP VPN? IP and IPX
+
+
+
+218. ESP (Encapsulating Security Protocol) is defined in which of the following standards? IPsec
+
+
+
+219. L2F was developed by which company? Cisco
+
+
+
+220. Which layer of the OSI reference model does PPTP work at? Presentation layer
+
+
+
+221.  Which layer of the OSI reference model does IPsec work at? Session layer
+
+
+
+222. what does storage management comprise of? SAN management, Data protection and disk operation
+
+
+
+223. Which protocols are used for Storage management? SNMP
+
+
+
+224. What are the difficulties the SAN administrator incur while dealing with diverse vendors? Proprietary management interfaces, Multiple applications to manage storage in the data center and No single view
+
+
+
+225. How do Storage administrators ensure secure access to storage devices? By using Zoning
+
+
+
+226. What does effective Storage management include? Securities, Backups and Reporting
+
+
+
+227. what are the tasks involved in Storage Capacity management? Identifying storage systems are approaching full capacity, Monitoring trends for each resource and Tracking Total capacity, total used, total available
+
+
+
+228. what are the effects of open standards like SMI(s)? Standardization drives software interoperability and interchange ability. Breaks the old-style dependence on proprietary methods, trade secrets, and single providers. Builds a strong foundation on which others can quickly build and innovate.
+
+
+
+229. What does SMI-S Standard use? CIM-XML/HTTP
+
+
+
+230. which is an application-level protocol in which a few manager stations control a set of agents? SNMP
+
+
+
+231. by how much does full duplex mode increases capacity of each domain? 10-20 mbps
+
+
+
+232.  what do we need to use Simple Network Management System (SNMP)? Rules
+
+
+
+233. what are the two subsystems configuration management can be divided into? Reconfiguration and documentation
+
+
+
+234. what is the main difference between SNMPv3 and SNMPv2? Enhanced security
+
+
+
+235. Structure of Management Information (SMI) is guideline of which protocol? SNMP
+
+
+
+236.  SNMP is a framework for managing devices in an internet using which protocol? TCP/IP
+
+
+
+237. what does BER stand for? Basic encoding rules
+
+
+
+238. Control of users’ access to network resources through charges are main responsibilities of which management? Security management
+
+
+
+239. In Network Management System what is responsible for controlling access to network based on predefined policy? Security management
+
+
+
+240. What is the protocol used by Telnet application? Telnet
+
+
+
+241. Most text typed is immediately sent to the remote host for processing in which mode? In “character at a time” mode
+
+
+
+242. what  allows you to connect and login to a remote computer? Telnet
+
+
+
+243. what type of login is telnet? Remote Login
+
+
+
+244. Which operating mode of telnet is full duplex? Line mode
+
+
+
+245. If we want that a character be interpreted by the client instead of server what has to be done? escape character has to be used
+
+
+
+246. Telnet protocol is used to establish a connection to which port? TCP port number 23
+
+
+
+247. All telnet operations are sent in how many bytes? 8 bytes
+
+
+
+248. AbsoluteTelnet is a telnet client for which OS? windows
+
+
+
+249. What is the decimal code of interpret as command (IAC) character? 255
+
+
+
+250. each character typed is sent by the client to the server in which mode?  In character mode operation of telnet implementation
+
+
+
+251. Can telnet also be used for file transfer? No
+
+
+
+252. In telnet, the client echoes the character on the screen but does not send it until a whole line is completed in which mode? Default mode
+
+
+
+253. In TCP, how is sending and receiving data done? Stream of bytes
+
+
+
+254. TCP process may not write and read data at the same speed, So what do we use for storage? Buffers
+
+
+
+255. TCP groups a number of bytes together into a unit called? Segment
+
+
+
+256. Which type of communication is offered by TCP? full duplex
+
+
+
+257. To achieve reliable transport in TCP, what is used to check the safe and sound arrival of data? Acknowledgment
+
+
+
+258. In segment header, what does the sequence number and acknowledgement number field refers to? Byte number
+
+
+
+259. Bytes of data being transferred in each connection are numbered by TCP, from where do these numbers starts with?  Sequence of zero’s and one’s
+
+
+
+260. what does the value of acknowledgement field in a segment define? Number of next bytes to receive
+
+
+
+261.  what does the control of the amount of data by the receiver referred to as? Flow control
+
+
+
+262. What is the size of TCP segment header? 20 - 60 bytes
+
+
+
+263. Connection establishment in TCP is done by which mechanism? Three-way handshaking
+
+
+
+264. The server program tells its TCP that it is ready to accept a connection. what is this process called? Passive open
+
+
+
+265. The process of a client wishing to connect to an open server and thereby telling its TCP that it needs to be connected to that particular server is called what? Active open
+
+
+
+266. In Three-Way Handshaking process, what is the situation called where both the TCP’s issue an active open? Simultaneous open
+
+
+
+267. what is the situation called when a malicious attacker sends a large number of SYNC segments to a server, pretending that each of them is coming from a different client by faking the source IP address in the datagrams? Denial-of-service attack
+
+
+
+268.  What are the Sizes of source and destination port address of TCP header? 16 bits and 16 bits
+
+
+
+269. Connection establishment in TCP is done by which mechanism? Three-Way Handshaking
+
+
+
+270. what type of protocol is UDP? Unreliable, connectionless transport layer protocol
+
+
+
+271. what is the Return value of the UDP port “Chargen” ? String of characters
+
+
+
+272. What is the main advantage of UDP? less overload
+
+
+
+273.  what is the Port number used by Network Time Protocol(NTP) with UDP? 123
+
+
+
+274. what is the header size of UDP packet? 8 bytes
+
+
+
+275. If the source host is the client, the port number in most cases will be what kind of a port. Number? Ephemeral port number
+
+
+
+276. which field is used to detect errors over the entire user datagram? Checksum
+
+
+
+277. Which mode of IPsec should you use to assure security and confidentiality of data within the same LAN? ESP transport mode
+
+
+
+278. Which two types of encryption protocols can be used to secure the authentication of computers using IPsec? SHA and MD5
+
+
+
+279. Which two types of IPsec can be used to secure communications between two LANs? AH tunnel mode and ESP tunnel mode
+
+
+
+280. What provides authentication at the IP level? AH
+
+
+
+281. which two protocols does IPsec define? AH and ESP
+
+282. IP Security operates in which layer of the OSI model? Network
+
+
+
+283. what does ESP provide? Source authentication, data integrity and privacy
+
+
+
+284. which term in computer security refers to the phenomenon by which computer system assets can be modified only by authorized parities? Confidentiality
+
+
+
+285. Which organization is primarily concerned with military encryption systems? NSA
+
+
+
+286. what are the two broad categories of congestion control? Open-loop and Closed-loop
+
+
+
+287. In open-loop control, why are policies applied? Prevent before congestion occurs
+
+
+
+288. when is retransmission of packets done? when they are lost, corrupted or needed
+
+
+
+289. Discarding policy is mainly done by which device ? Router
+
+
+
+290. when is closed loop control mechanism applied? Remove after congestion
+
+
+
+291. What is the technique in which a congested node stops receiving data from the immediate upstream node or nodes called? Backpressure
+
+
+
+292. Backpressure technique can be applied only to which type of networks? virtual circuit networks
+
+
+
+293. what is the packet sent by a node to the source to inform it of congestion called? choke
+
+
+
+294. In the slow-start algorithm, the size of the congestion window increases in what manner until it reaches a threshold? Exponentially
+
+
+
+295. In the congestion avoidance algorithm, the size of the congestion window increases in what manner until congestion is detected? Additively
+
+296. Virtual circuit network is implemented in which layer? network layer
+
+
+
+297. which Identifier is used for data transfer in virtual circuit network? VC identifier
+
+
+
+298. The address that is unique in the scope of the network or internationally if the network is part of an international network is called what? global address
+
+
+
+299. what are the steps required in setup process? Setup request and acknowledgement
+
+
+
+300. During the teardown phase, what does the source send after sending all the frames to notify termination? Teardown request
+
+
+
+301. If resource allocated during setup phase then how does delay for each packet? delay is same for each packet
+
+
+
+302. If resource allocated on demand then how does delay for each packet? delay is different for each packet
+
+
+
+303. In data transfer phase, the table contains how many columns? 4
+
+
+
+304. What is the size of the payload field of an ATM cell? 48 bytes
+
+ 
+
+305. Where does the frame relay have an error detection mechanism? data link layer
+
+
+
+306. what is the virtual circuit identifier in frame relay called? data link connection identifier
+
+
+
+307. In frame relay networks, what is the extended address used for? to increase the range of data link connection identifiers
+
+
+
+308. What is FRAD in frame relay network? FRAD assembles and disassembles the frames coming from other protocols
+
+
+
+309. What option does the Frame Relay networks offer? Voice Over Frame Relay
+
+310. How many total features of Frame Relay are there? Nine
+
+
+
+311. Frame Relay does not provide flow or error control, which protocol must they be provided by? Upper Level Protocol
+
+
+
+312. Frame relay has error detection at which layer? Data link layer
+
+
+
+313. what is the Virtual circuit identifier in frame relay called? data link connection identifier
+
+
+
+314. Which type of webpage is generated on demand by a program or a request from browser? Dynamic web page
+
+
+
+315. Which program is used to view html documents? web browser
+
+
+
+316. Which program is used to display a web page? web browser
+
+
+
+317. Which enables user to access the resources of internet? web browser
+
+
+
+318. what is the Common gateway interface used for? generate executable files from web content by web server
+
+
+
+319. What does URL stand for? uniform resource locator
+
+
+
+320. what is a web cookie? is a small piece of data sent from a website and stored in user’s web browser while a user is browsing a website
+
+
+
+321. What is an alternative to javascript on windows platform? VBScript
+
+
+
+322. What is document object model (DOM)? convention for representing and interacting with objects in html documents
+
+
+
+323. what does AJAX stand for? asynchronous javascript and xml
+
+
+
+324. Error reporting is handled by which protocol? ICMP
+
+
+
+325. which type of service identifies the type of packets? TOS-type of service
+
+
+
+326. The data field can carry which type of messages? ICMP messages
+
+327. What should be the flag value to indicate the last fragment? 0
+
+
+
+328. what are the demerits of fragmentation? What should be the flag value to indicate the last fragment?
+
+
+
+329. Which field helps to check rearrangement of the fragments? Offset
+
+
+
+330.  In classless addressing, there are no classes but addresses are still granted in what form? Blocks
+
+
+
+331. In IPv4 Addresses, what is classful addressing replaced with? classless addressing
+
+
+
+332. what does the First address in a block is used as network address represent?  Organization
+
+
+
+333. Network addresses are very important concepts of which type of addressing? IP addressing
+
+
+
+334. what is the size of IP address in IPv6 ? 128 bits
+
+
+
+335. what is the size of IP address in IPv6 ? 40 bytes
+
+
+
+336. n the IPv6 header, the traffic class field is similar to which field in the IPv4 header? TOS field
+
+
+
+337. IPv6 does not use which type of address? Broadcast
+
+
+
+338. what are the features present in IPv4 but not in IPv6? Fragmentation, header checksum and options
+
+
+
+339.  Which field determines the lifetime of IPv6 datagram? Hop limit
+
+
+
+340. how is dual stack approach implemented? Implementing Ipv6 with 2 stacks
+
+
+
+341. Teredo is an automatic tunneling technique. In each client the obfuscated IPv4 address is represented by which bits? Bits 96-127
+
+
+
+342. Where is a link local address of local addresses is used? isolated subnet
+
+
+
+343. In IPv6 addresses, which type of addresses start with eight 0s? Reserved addresses
+
+
+
+344. When was IPV6 launched? June 6, 2012
+
+
+
+345. In subcategories of reserved address in IPv6, which address is used by a host to test itself without going into network? Loopback address
+
+
+
+346. Which layer is responsible for process-to-process delivery? Transport layer
+
+
+
+347. In process-to-process delivery, two processes communicate in which of the following methods? Client/Server
+
+
+
+348. Multiple processes on destinations at transport layer are identified by what? Port number
+
+
+
+349. what is the range of port numbers in Internet model? 0 and 65,535(16-bit)
+
+
+
+350. What are the port number ranges divided by IANA? IANA divided port number range in to three i.e., Well-known, Registered and Dynamic ports.
+
+
+
+351. What is the combination of an IP address and port number called? Socket address
+
+
+
+352. In transport layer, where is Multiplexing done? Sender site
+
+
+
+353. What is the process of error checking and dropping of the header, delivering messages to appropriate process based on port number called? Demultiplexing
+
+
+
+354. what has the Internet Control Message Protocol(ICMP) been designed to compensate?  Error-reporting, Error-correction and Host and management queries
+
+
+
+355. what is the header size of the ICMP message? 8 bytes
+
+356. During error reporting, where does the ICMP always report the error messages? Source
+
+
+
+357. When a router cannot route a datagram or host cannot deliver a datagram, the datagram is discarded and the router or the host sends which type of message back to the source host that initiated the datagram? Destination unreachable
+
+
+
+358. The source-quench message in ICMP was designed to add what kind of mechanism to the IP? Flow control
+
+
+
+359. During debugging, which program can we use to find if a host is alive and responding? Ping
+
+
+
+360.  In windows, what can be used to trace the route of the packet from the source to the destination? Tracert
+
+
+
+361. what was the main reason for transition from IPv4 to IPv6 ? Huge number of systems on the internet
+
+
+
+362. what are the three transition strategies? Dual stack, tunneling and header translation
+
+
+
+363. To determine which version to use when sending a packet to a destination, the source host queries which of the following? DNS
+
+
+
+364. what is the strategy used when two computers using IPv6 want to communicate with each other and the packet must pass through a region that uses IPv4? Tunneling
+
+
+
+365. what is necessary when the sender wants to use IPv6, but the receiver does not understand IPv6? Header translation
+
+
+
+366. Header translation uses which address to translate an IPv6 address to an IPv4 address? Mapped address
+
+
+
+367.  In header translation procedure, what is ignored? IPv6 flow label
+
+
+
+368. In the IPv6 header, the traffic class field is similar to which field in the IPv4 header? TOS field
+
+369.The combination of which two numbers is often termed the local address of the local portion of the IP address? Subnet number and host number
+
+
+
+370. Which type of subletting Subnet number and host number? Static subletting
+
+
+
+371. Which is a high performance fiber optic token ring LAN running at 100 Mbps over distances upto 1000 stations connected? FDDI
+
+
+
+372. what is a collective term for a number of Ethernet Standards that carry traffic at the nominal rate of 1000 Mbit/s against the original Ethernet speed of 10 Mbit/s? fast ethernet
+
+
+
+373.  What is another kind of fiber optic network with an active star for switching? S/NET
+
+
+
+374. Which type of Ethernet framing is used for TCP/IP and DEC net? Ethernet II
+
+
+
+375. Which NetWare protocol works on layer 3–network layer—of the OSI model? IPX
+
+
+
+376. Which NetWare protocol provides link-state routing? NLSP
+
+
+
+377.  What does the “IPX maximum-paths 2” command accomplish? It enables load sharing on 2 paths if the paths are equal metric paths
+
+
+
+378. How often does a RIPv1 router broadcast its routing table by default? Every 30 seconds
+
+
+
+379. Which command displays RIP routing updates? Debug IP rip
+
+
+
+380. Which protocol gives a full route table update every 30 seconds?RIP
+
+
+
+381. Where we should use default routing? On stub networks- which have only one exit path out of the network
+
+
+
+382. What is route poisoning? It describes when a router sets the metric for a downed link to infinity
+
+383. Which two routing protocols can be redistributed into OSPF by a Cisco router? IP EIGRP and RIPv2
+
+
+
+384. Which is a reason for avoiding doing route redistribution on two routers between the same two routing domains? Routing feedback
+
+
+
+385. What does administrative distance rank? Sources of routing information
+
+
+
+386. Which protocol maintains neighbor adjacencies? RIPv2
+
+
+
+387. Which routing protocol implements the diffusing update algorithm? EIGRP
+
+
+
+388. In cryptography, what is cipher? algorithm for performing encryption and decryption
+
+
+
+389. n asymmetric key cryptography, the private key is kept by whom? Receiver
+
+
+
+390. In cryptography, the order of the letters in a message is rearranged by which cipher? transpositional cipher
+
+
+
+391. What is data encryption standard (DES)? Block cipher
+
+
+
+392. Why is Cryptanalysis used? to find some insecurity in a cryptographic scheme
+
+
+
+393. Voice privacy in GSM cellular telephone protocol is provided by which cipher? A5/2 cipher
+
+
+
+394. ElGamal encryption system is which kind of algorithm? asymmetric key encryption algorithm
+
+
+
+395. Cryptographic hash function takes an arbitrary block of data and returns what? fixed size bit string
+
+
+
+396. Multiple object can be sent over a TCP connection between client and server in which type of HTTP? Persistent HTTP
+
+
+
+397.  what are HTTP resources located in the network? Uniform resource identifier
+
+
+
+398. HTTP client requests by establishing which type of connection to a particular port on the server? Transmission control protocol
+
+
+
+399. In which mode FTP, does the client initiates both the control and data connections? Passive mode
+
+
+
+400. Which methods are commonly used in Server Socket class? Public Socket accept ()
+

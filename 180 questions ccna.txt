@@ -1,0 +1,341 @@
+In TCP, sending and receiving data is done as? Stream of bytes
+
+What do we need for storage so TCP process may not write and read data at the same speed.?Buffers
+
+TCP groups a number of bytes together into a packet called? Segment
+
+Communication offered by TCP is? Full-duplex
+
+What is used to check the safe and sound arrival of data to achieve reliable transport in TCP?Acknowledgment
+
+In segment header, sequence number and acknowledgement number field refers to? Byte number
+
+Suppose a TCP connection is transferring a file of 1000 bytes. The first byte is numbered 10001.
+
+What is the sequence number of the segment if all data is sent in only one segment.? 10001
+
+Bytes of data being transferred in each connection are numbered by TCP. These numbers starts with a? Sequence of zero’s and one’s
+
+The value of acknowledgement field in a segment defines? Number of next bytes to receive
+
+The receiver of the data controls the amount of data that are to be sent by the sender is referred as? Flow control
+
+Size of TCP segment header ranges between? 20 and 60 bytes
+
+Connection establishment in TCP is done by which mechanism? Three-Way Handshaking
+
+The server program tells its TCP that it is ready to accept a connection. This process is called? Passive open
+
+The process of, A client that wishes to connect to an open server tells its TCP that it needs to be connected to that particular server is? Active open
+
+In Three-Way Handshaking process, the situation where both the TCP’s issue an active open is? Simultaneous open
+
+The situation when a malicious attacker sends a large number of SYNC segments to a server, pretending that each of them is coming from a different client by faking the source IP address in the datagrams? SYNC flooding attack
+
+SYNC flooding attack belongs to a type of security attack known as? Denial-of- service attack
+
+Size of source and destination port address of TCP header respectively are? 16-bits and 16-bits
+
+Connection establishment in TCP is done by which mechanism? Three-Way Handshaking
+
+Return value of the UDP port Chargen is? String of characters
+
+Beyond IP, TCP provides additional services such as? Demultiplexing and error checking
+
+The main advantage of UDP is? Less overload
+
+Port number used by Network Time Protocol(NTP) with UDP is? 123
+
+what is the header size of UDP packet? 8 bytes
+
+what is the source code if the port number is ephemeral port number ? Client
+
+Total length field in UDP packet header is the length of? UDP header plus data
+
+correct expression for UDP user datagram length is? UDP length = IP length – IP header’s length
+
+The field used to detect errors over the entire user datagram is? Checksum
+
+Which mode of IPsec should you use to assure security and confidentiality of data within the same LAN? ESP transport mode
+
+what provides authentication at the IP level.? AH
+
+what are the two protocols IPsec defines? PGP; ESP
+
+IP Security operates in which layer of the OSI model? Network
+
+what means that computer system assets can be modified only by authorized parities In computer security? Integrity
+
+what means that the information in a computer system only be accessible for reading by authorized parities in computer security .? Confidentiality
+
+A piece of icon or image on a web page associated with another webpage is called? hyperlink
+
+what is Dynamic web page? generates on demand by a program or a request from browser
+
+what is the use of Common gateway interface? generate executable files from web content by web server
+
+URL stands for? uniform resource locator
+
+A web cookie is a small piece of data? sent from a website and stored in user’s web browser while a user is browsing a website
+
+An alternative of javascript on windows platform is? VBScript
+
+What is document object model (DOM)? convention for representing and interacting with objects in html documents
+
+AJAX stands for? asynchronous javascript and xml
+
+The TTL field has value 10. How many routers (max) can process this datagram? 10
+
+If the value in protocol field is 17,what is the transport layer protocol used ? UDP
+
+What should be the flag value to indicate the last fragment? 0
+
+Which field helps to check rearrangement of the fragments? offset
+
+In classless addressing, there are no classes but addresses are still granted in? Blocks
+
+In IPv4 Addresses, classful addressing is replaced with? Classless Addressing
+
+First address in a block is used as network address that represents the? Organization
+
+In classful addressing, a large part of available addresses are? Wasted
+
+Network addresses are very important concepts of? IP Addressing
+
+The size of IP address in IPv6 is?128bits
+
+what is the header length of an IPv6 datagram? 40bytes
+
+In the IPv6 header,the traffic class field is similar to which field in the IPv4 header? ToS field
+
+IPv6 does not use what type of address? Broadcast
+
+which field determines the lifetime of IPv6 datagram? Hop limit
+
+Dual-stack approach refers to? Node has both IPv4 and IPv6 support
+
+Suppose two IPv6 nodes want to interoperate using IPv6 datagrams but are connected to each other by intervening IPv4 routers. The best solution here is? Tunneling
+
+Teredo is an automatic tunneling technique. In each client the obfuscated IPv4 address is represented by bits? 96 to 127
+
+Dual-stack approach refers to? Node has both IPv4 and IPv6 support
+
+Suppose two IPv6 nodes want to interoperate using IPv6 datagrams but are connected to each other by intervening IPv4 routers. The best solution here is? Tunneling
+
+Teredo is an automatic tunneling technique. In each client the obfuscated IPv4 address is represented by bits? 96 to 127
+
+A link local address of local addresses is used in an? Isolated subnet
+
+In subcategories of reserved address in IPv6, address that is used by a host to test itself without going into network is called? Loopback address
+
+A few leftmost bits in each address of IPv6 address define its category is called? Prefix type
+
+In IPv6 addresses, addresses start with eight 0s are called? Reserved addresses
+
+When IPV6 launched? June 6, 2012
+
+Which layer is responsible for process-to- process delivery? Transport layer
+
+Multiple processes on destinations at transport layer are identified by: Port number
+
+Range of port numbers in Internet model is? 0 and 65,535(16-bit)
+
+The combination of an IP address and port number is called as? Socket address
+
+In transport layer, Multiplexing is done at Sender site .The process of error checking and dropping of the header, delivering messages to appropriate process based on port number is called as? Demultiplexing
+
+Header size of the ICMP message is? 8-bytes
+
+During error reporting, ICMP always reports error messages to? Source
+
+ICMP error message will not be generated for a datagram having a special address such as? 127.0.0.0
+
+When a router cannot route a datagram or host cannot deliver a datagram, the datagram is discarded and the router or the host sends which message back to the source host that initiated the datagram.? Destination unreachable
+
+The source-quench message in ICMP was designed to add which kind of control to the IP.? Flow control
+
+In case of time exceeded error, when the datagram visits a router, the value of time to live field is? Decremented by 1
+
+Two machines can use the timestamp request and timestamp replay messages to determine the time needed for an IP datagram to travel between them.? Round-trip time
+
+During debugging,which program can we can use to find if a host is alive and responding? Ping
+
+In windows,what can be used to trace the route of the packet from the source to the destination? Tracert
+
+In a simple echo-request message, the value of the sum is 01010000 01011100. Then, value of checksum is? 10101111 10100011
+
+The main reason for transition from IPv4 to IPv6 is? Huge number of systems on the internet
+
+The strategy used when two computers using IPv6 want to communicate with each other and the packet must pass through a region that uses IPv4 is? Tunnelling which translation is necessary when the sender wants to use IPv6, but the receiver does not understand IPv6? Header translation
+
+Header translation uses which address to translate an IPv6 address to an IPv4 address? Mapped address
+
+The TTL field has value 10. How many routers (max) can process this datagram? 10
+
+If the value in protocol field is 17,what is the transport layer protocol used ? UDP
+
+Which field helps to check rearrangement of the fragments? offset
+
+what is The size of IP address in IPv6 ? 128bits
+
+what is The header length of an IPv6 datagram ? 40bytes
+
+In the IPv6 header, the traffic class field is similar to which field in the IPv4 header? TOS field
+
+IPv6 does not use which type of address? Broadcast
+
+You have an IP address of 172.16.13.5 with a 255.255.255.128 subnet mask. What is your class of address, subnet address, and broadcast address? Class B, Subnet 172.16.13.0, Broadcast address 172.16.13.127
+
+If you wanted to have 12 subnets with a Class C network ID, which subnet mask would you use? 255.255.255.240
+
+The combination of which two is often termed the local address of the local portion of the IP address.? Subnet number and host number
+
+what implies that all subnets obtained from the same subnet mask.? Static subnetting
+
+what is a high performance fiber optic token ring LAN running at 100 Mbps over distances upto 1000 stations connected? FDDI
+
+what is a collective term for a number of Ethernet Standards that carry traffic at the nominal rate of 1000 Mbit/s against the original Ethernet speed of 10 Mbit/s.? Fast Ethernet
+
+what is another kind of fiber optic network with an active star for switching.? S/NET
+
+What is the maximum number of IP addresses that can be assigned to hosts on a local subnet that uses the 255.255.255.224 subnet mask? 30
+
+You need to subnet a network that has 5 subnets, each with at least 16 hosts. Which classful subnet mask would you use? 255.255.255.224
+
+You have a network that needs 29 subnets while maximizing the number of host addresses available on each subnet. How many bits must you borrow from the host field to provide the correct subnet mask? 5
+
+If an Ethernet port on a router were assigned an IP address of 172.16.112.1/25, what would be the
+
+valid subnet address of this host? 172.16.112.0
+
+You have an interface on a router with the IP address of 192.168.192.10/29. Including the router interface, how many hosts can have IP addresses on the LAN attached to the router interface? 6
+
+What is the subnetwork number of a host with an IP address of 172.16.66.0/21? 172.16.64.0
+
+The network address of 172.16.0.0/19 provides how many subnets and hosts? 8 subnets, 8,190 hosts each
+
+The port has post security configured on it. What is the problem? The port has an access violation on it.
+
+ A port on a switch is showing inactive. You determine that a port-security violation has been experienced. Once the violation has been discovered, how will you reset the port so that it functions again?SwitchA config-if shutdown
+
+One way to clear an err-disable status is to issue the shutdown command and then the no shutdown command on the port. This will reset the port so that traffic can flow again. However, if the access violation still exists then it will enter an err-disable status again.Switch show port-security
+
+Which is a correct statement about sticky MAC addresses learned on a switchport? Sticky MAC addresses become part of the running-configuration.
+
+Which command is used to verify the output in the following exhibit?Switch show port-security addressWhich term describes the area outside of the corporate firewall?Perimeter area
+
+How does DHCP snooping track DHCP messages and mitigate attacks? DHCP binding table
+
+Which term describes the area accessible to the Internet yet protected by the corporate firewall? DMZ
+
+Which method can restrict a user from plugging a wireless access point into a corporate network? Port security
+
+What does port security use to block unauthorized access? Source MAC addresses
+
+A network administrator is troubleshooting an EIGRP problem on a router and needs to confirm the IP addresses of the devices with which the router has established adjacency. The retransmit interval and the queue counts for the adjacent routers also need to be checked. What command will display the required information?Router
+
+Which two are advantages of static routing when compared to dynamic routing? Security increases because only the network administrator may change the routing table and . Routing traffic load is reduced when used in stub network links
+
+What are two enhancements that OSPFv3 supports over OSPFv2?It can support multiple IPv6 subnets on a single link and It can support multiple IPv6 subnets on a single link.
+
+What information does a router running a link-state protocol use to build and maintain its topological database?. LSAs from other routers and hello packets.
+
+Which command will enable port security? Switch config-if switchport port-security
+
+If port security is enabled on an interface, what is the maximum number of MAC addresses allowed by default?1 MAC
+address
+
+What OSPF command, when configured, will include all interfaces into area 0?network 0.0.0.0 255.255.255.255 area 0
+
+Which of the following devices primary function to configure the clock rate on a point-to-point link? DCE
+
+You are connecting a Cisco router to a WAN environment that uses routers from different vendors. What protocol should you use as the encapsulation protocol on the serial link?PPP
+
+Which PPP authentication protocol uses a challenge response algorithm to perform the authentication? CHAP
+
+Which of the following layer-2 protocols supports asynchronous communication and authentication? PPP
+
+Which of the following router port would you use to connect to a T1 line?Serial
+
+Which PPP authentication protocol transfers username and passwords in clear text? PAP
+
+Which of the following enables CHAP authentication and uses PAP authentication as a backup authentication method?PPP authentication chap pap
+
+Which PPP sub-protocol is responsible for allowing PPP to support multiple network protocols?NCP
+
+PPP has a number of sub-protocols that perform different functions. Which protocol is responsible for negotiating authentication options? LCP
+
+Which of the following serial link protocols can implement multilink for load balancing?PPP
+
+Which Cisco Catalyst feature automatically disables the port in an operational PortFast upon receipt of a BPDU?BPDU Guard
+
+Which protocol is an open standard protocol framework that is commonly used in VPNs to provide secure end-to-end connections?IPsec
+
+Which IPsec security protocol should be used when confidentiality is required? ESP
+
+Which protocol is an open standard protocol framework that is commonly used in VPNs, to provide secure end-to-end communications?IPsec
+
+Which component of VPN technology ensures that data can be read only by its intended recipient?authentication
+
+When configuring Cisco IOS login enhancements for virtual connections, what is the quiet period?The period of time in which virtual login attempts are blocked, following repeated failed login attempts
+
+Which of these can be used to authenticate the IPsec peers during IKE Phase 1?pre-shared key
+
+For the following items, which one acts as a VPN termination device and is located at a primary network location? Headend VPN device
+
+Which device might be installed at a branch office to enable and manage an IPsec site-to-site VPN?Cisco Adaptive Security Appliance
+
+A router has two Fast Ethernet interfaces and needs to connect to four VLANs in the local
+network. How can you accomplish this task, using the fewest physical interfaces and
+without decreasing network performance?  Add two more Fast Ethernet interfaces.
+
+Which layer in the OSI reference model is responsible for determining the availability of the
+receiving program and checking to see if enough resources exist for that communication?application
+
+A network interface port has collision detection and carrier sensing enabled on a shared
+twisted pair network. From this statement, what is known about the network interface port?This is an Ethernet port operating at half duplex.
+
+A receiving host computes the checksum on a frame and determines that the frame is
+damaged. The frame is then discarded. At which OSI layer did this happen?  data link
+
+Which of the following protocol negotiates the formation of an EtherChannel?PAgP
+
+which statement describes an ehter channel implementation?A trunked port can be part of an EtherChannel bundle
+
+what is an advantage of using lacp?allows automatic formation of EtherChannel links
+
+what is a best practice to use before beggning an etherchannel implementation?Shut down each of the affected interfaces
+
+What is known as one-to-nearest addressing in IPv6?anycast
+
+Which command encrypts all plaintext passwords?Router config service password-encryption
+
+A network administrator is troubleshooting an EIGRP problem on a router and needs to confirm
+the IP addresses of the devices with which the router has established adjacency. The retransmit
+interval and the queue counts for the adjacent routers also need to be checked. What command
+will display the required information?Router show ip eigrp neighbors
+
+What is a global command?a command that is set once and affects the entire router
+
+A Cisco router is booting and has just completed the POST process. It is now ready to find and load
+an IOS image. What function does the router perform next?It checks the configuration register
+
+Which command displays CPU utilization?show process
+
+On a corporate network, hosts on the same VLAN can communicate with each other, but they are
+unable to communicate with hosts on different VLANs. What is needed to allow communication
+between the VLANs?a router with subinterfaces configured on the physical interface that is connected to the switch
+
+Which command is used to display the collection of OSPF link states?show ip ospf database
+
+Which parameter would you tune to affect the selection of a static route as a backup, when a
+dynamic protocol is also being used?administrative distance
+
+Which command shows your active Telnet connections?show session
+
+Which type of EIGRP route entry describes a feasible successor?a backup route, stored in the topology table
+
+What is one benefit of PVST+?PVST+ allows the root switch location to be optimized per VLAN.
+
+Which term describes a spanning-tree network that has all switch ports in either the blocking or
+forwarding state?converged

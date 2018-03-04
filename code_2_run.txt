@@ -1,0 +1,9 @@
+Gpu bound code / code to run
+
+https://github.com/keras-team/keras/blob/master/examples/babi_rnn.py
+https://github.com/jcjohnson/torch-rnn
+https://gist.github.com/mikalv/3947ccf21366669ac06a01f39d7cff05
+Also the advanced version of word2vec
+https://github.com/suriyadeepan/easy_seq2seq - download cornel movie corpus before hand
+https://www.tensorflow.org/tutorials/seq2seq  - English to French
+https://github.com/adeshpande3/Facebook-Messenger-Bot/blob/master/Seq2Seq.py 

@@ -1,0 +1,100 @@
+What is the difference between a CSU/DSU and a modem? A CSU/DSU converts digital signals from a router to a leased line; a modem converts digital signals from a router to a phone line.
+A receiving host computes the checksum on a frame and determines that the frame is damaged. The frame is then discarded. At which OSI layer did this happen? data link
+A network administrator is verifying the configuration of a newly installed host by establishing an FTP connection to a remote server. What is the highest layer of the protocol stack that the network administrator is using for this operation? application
+A router has two Fast Ethernet interfaces and needs to connect to four VLANs in the local network. How can you accomplish this task, using the fewest physical interfaces and without decreasing network performance? Implement a router-on-a-stick configuration.
+Which layer in the OSI reference model is responsible for determining the availability of the receiving program and checking to see if enough resources exist for that communication? application
+What are the eight binary values found in a single octet of an IP address? 128 64 32 16 8 4 2 1
+What is the decimal value of binary 00001110? 14
+What is the binary value of decimal 256? 100000000
+What is 127.0.0.1 in binary? 01111111.00000000.00000000.00000001
+How many hosts are on the network 172.16.41.0/27? 30
+How many subnets are created by the address 192.168.1.0	255.255.255.248? 32
+What is the broadcast ID of the seventh subnet created using 172.16.0.0/28?	172.16.0.111
+What is the ideal mask to use on point-to-point serial links? 255.255.255.252	
+Is 172.16.255.0/18 a valid host IP? Yes
+Which technology supports the stateless assignment of IPv6 addresses? autoconfiguration
+ After you configure the Loopback0 interface, which command can you enter to verify the status of the interface and determine whether fast switching is enabled? Router#show ip interface loopback 0
+If primary and secondary root switches with priority 16384 both experience catastrophic losses, which tertiary switch can take over? a switch with priority 20480
+What is the function of the kernel of an operating software? The kernel provisions hardware resources to meet software requirements.
+A network administrator needs to keep the user ID, password, and session contents private when establishing remote CLI connectivity with a switch to manage it. Which access method should be chosen? SSH
+Which procedure is used to access a Cisco 2960 switch when performing an initial configuration in a secure environment? Use the console port to locally access the switch from a serial or USB interface of the PC.
+Which command or key combination allows a user to return to the previous level in the command hierarchy? exit
+A router has a valid operating system and a configuration file stored in NVRAM. The configuration file contains an enable secret password but no console password. When the router boots up, which mode will display? user EXEC mode 
+Which information does the show startup-config command display? the contents of the saved configuration file in the NVRAM 
+Why is it important to configure a hostname on a device? to identify the device during remote access (SSH or telnet)
+How does the service password-encryption command enhance password security on Cisco routers and switches? It encrypts passwords that are stored in router or switch configuration files.
+While trying to solve a network issue, a technician made multiple changes to the current router configuration file. The changes did not solve the problem and were not saved. What action can the technician take to discard the changes and work with the file in NVRAM? Issue the reload command without saving the running configuration.
+Which interface allows remote management of a Layer 2 switch? the switch virtual interface
+Which interface is the default SVI on a Cisco switch? VLAN 1
+Why would a Layer 2 switch need an IP address? to enable the switch to be managed remotely
+What command can be used on a Windows PC to see the IP configuration of that computer? ipconfig
+A technician is adding a new PC to a LAN. After unpacking the components and making all the connections, the technician starts the PC. After the OS loads, the technician opens a browser, and verifies that the PC can reach the Internet. Why was the PC able to connect to the network with no additional configuration? The PC was preconfigured to use DHCP.
+What is a user trying to determine when issuing a ping 10.1.1.1 command on a PC? if there is connectivity with the destination device
+A router has a valid operating system and a configuration stored in NVRAM. When the router boots up, which mode will display? user EXEC mode
+What is a result of using the service password-encryption command on a Cisco network device? All passwords in the configuration are not shown in clear text when viewing the configuration.
+A new network administrator has been asked to enter a banner message on a Cisco device. What is the fastest way a network administrator could test whether the banner is properly configured? Exit privileged EXEC mode and press Enter.
+What benefit does DHCP provide to a network? Hosts can connect to the network and get an IP address without manual configuration.
+What criterion must be followed in the design of an IPv4 addressing scheme for end devices? Each IP address must be unique within the local network.
+Which command would you configure globally on a Cisco router that would allow you to view directly connected Cisco devices? cdp run
+A Cisco router is booting and has just completed the POST process. It is now ready to find and load an IOS image. What function does the router perform next? It checks the configuration register.
+Which interface counter can you use to diagnose a duplex mismatch problem? late collisions
+Which feature can you implement to reserve bandwidth for VoIP calls across the call path? RSVP
+When an interface is configured with PortFast BPDU guard, how does the interface respond when it receives a BPDU? It goes into an errdisable state.
+What is the authoritative source for an address lookup? a recursive DNS search
+Which command can you enter to verify that a BGP connection to a remote device is established? show ip bgp summary
+If you are configuring syslog messages specifying `logging trap warning’, which log messages will the router send? 0-4
+What IP SLA ICMP Echo measures? Packet loss
+What is the status of port-channel if LACP is misconfigured? Disabled
+What 8-bit field exists in IP packet for QoS? Tos Field
+What feature uses a random time to re-sent a frame? CSMA/CD
+Which mode is compatible with Trunk, Access, and desirable ports? Dynamic Auto
+Which standards-based First Hop Redundancy Protocol is a Cisco supported alternative to Hot Standby Router Protocol? VRRP
+If there are 3 hosts connected in one port of a switch and two other hosts connected in another port, how many collision domains are present on the router? 2
+You have been asked to come up with a subnet mask that will allow all three web servers to be on the same network while providing the maximum number of subnets. Which network address and subnet mask meet this requirement? 192.168.252.8 255.255.255.248
+What parameter can be different on ports within an EtherChannel? DTP negotiation settings
+Which spanning-tree protocol rides on top of another spanning-tree protocol? MSTP
+Which command can you enter to determine whether a switch is operating in trunking mode? show interface switchport
+Which function of the IP SLAs ICMP jitter operation can you use to determine whether a VoIP issue is caused by excessive end-to-end time? round-trip time latency
+Which condition does the err-disabled status indicate on an Ethernet interface? Port security has disabled the interface.
+Which type of device can be replaced by the use of subinterfaces for VLAN routing? Layer 3 switch
+Which statement about LLDP is true? It is configured in global configuration mode.
+If the primary root bridge experiences a power loss, which switch takes over? switch 0004.9A1A.C182
+Which command can you enter to display duplicate IP addresses that the DHCP server assigns? show ip dhcp conflict 10.0.2.12
+Which feature builds a FIB and an adjacency table to expedite packet forwarding? Cisco Express Forwarding
+Which command can you enter to verify that a 128-bit address is live and responding? ping
+What is the purpose of the POST operation on a router? determine whether additional hardware has been added\
+Which feature facilitates the tagging of frames on a specific VLAN? Encapsulation
+What does split horizon prevent? routing loops, distance vector
+Which value to use in HSRP protocol election process? priority
+Which of the following is needed to be enable back the role of active in HSRP? preempt
+Which command is used to show the interface status of a router? show ip interface brief
+Which of the following privilege level is the most secured? Level 15
+Which IPV6 feature is supported in IPV4 but is not commonly used? anycast
+What to do when the router password was forgotten? Type confreg 0x2142 at the rommon 1
+What is true about Cisco Discovery Protocol? it is proprietary protocol
+Which of the following encrypts the traffic on a leased line? vpn
+How do you maintain security in multiple websites? vpn
+What is new in HSRPv2? a greater number in hsrp group field
+What’s are true about MPLS? It use a label to separate traffic from several costumer
+A network engineer wants to allow a temporary entry for a remote user with a specific username and password so that the user can access the entire network over the internet. Which ACL can be used? dynamic
+Which command is necessary to permit SSH or Telnet access to a cisco switch that is otherwise configured for these vty line protocols? transport input all
+Which component of the Cisco SDN solution serves as the centralized management system? Cisco APIC
+Which feature is config by setting a variance that is at least 2 times the metric? unequal cost load balancing 
+Which password types are encrypted? enable secret
+What is the binary pattern of unique ipv6 unique local address? 11111100
+Describe the best way to troubleshoot and isolate a network problem? Gather facts
+In which byte of an IP packet can traffic be marked? the ToS byte
+A security administrator wants to profile endpoints and gain visibility into attempted authentications. Which 802.1x mode allows these actions? Monitor mode
+How to verify strong and secured SSH connection? ssh -v 2 -l admin 10.1.1.1
+How many usable host are there per subnet if you have the address of 192.168.10.0 with a subnet mask of 255.255.255.240? 14
+What interconnection cable can you use when you use a MDI connection? crossover
+Which cisco platform can verify ACLs? Cisco APIC-EM
+Which value must the device send as its username when using CHAP to authenticate with the remote peer site id:17604704 over a PPP link? The local host name
+Which procedure is used to access a Cisco 2960 switch when performing an initial configuration in a secure environment? Use the console port to locally access the switch from a serial or USB interface of the PC.
+Which interface is the default SVI on a Cisco switch? VLAN 1
+What is the purpose of the subnet mask in conjunction with an IP address? to determine the subnet to which the host belongs
+What subnet mask is represented by the slash notation /20? 255.255.240.0
+A message is sent to all hosts on a remote network. Which type of message is it? directed broadcast
+What is indicated by a successful ping to the ::1 IPv6 address? IP is properly installed on the host.
+What field content is used by ICMPv6 to determine that a packet has expired? Hop Limit field
+What is a beneficial feature of the UDP transport protocol? fewer delays in transmission

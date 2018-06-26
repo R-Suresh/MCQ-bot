@@ -19,8 +19,8 @@ Create an updates folder and post daily updates on it. All of us put in lines ab
 Add neccecary txt files
 
 ## Research papers 
-<a href="/docs/papers/Using-Vector-Space-Model-in-Question-Answering-S_2015_Procedia-Computer-Scie.pdf">Using Vector Space Model in Question Answering System</a>
-<a href="/docs/papers/dlqa.pdf">DEEP LEARNING MODELS FOR QUESTION ANSWERING</a>
+<a href="/docs/papers/Using-Vector-Space-Model-in-Question-Answering-S_2015_Procedia-Computer-Scie.pdf">Using Vector Space Model in Question Answering System</a> </br>
+<a href="/docs/papers/dlqa.pdf">Deep Learning Models For Question Answering</a>
 
 ## Requirements
 

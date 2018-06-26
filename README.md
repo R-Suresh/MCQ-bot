@@ -19,8 +19,7 @@ Create an updates folder and post daily updates on it. All of us put in lines ab
 Add neccecary txt files
 
 ## Research papers 
-
-Links to all papers refered in the project
+<a href="/docs/papers/Using-Vector-Space-Model-in-Question-Answering-S_2015_Procedia-Computer-Scie.pdf">Using Vector Space Model in Question Answering System</a>
 
 ## Requirements
 

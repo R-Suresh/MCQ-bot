@@ -43,6 +43,8 @@ To be added by rahul
 ## Text Pre-Processing
 
  We Preprocess the dataset to remove the unnecessary data like stopwords and perform Tokenization to increase the efficiency
+ 
+ 
  <img src="docs/preprocessing.jpeg"/>
 
 ## Running the model

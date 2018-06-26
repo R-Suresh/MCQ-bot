@@ -42,8 +42,8 @@ To be added by rahul
 
 ## Text Pre-Processing
 
- To be added by shubham
- <img src="docs/pre-processing.jpeg"/>
+ We Preprocess the dataset to remove the unnecessary data like stopwords and perform Tokenization to increase the efficiency
+ <img src="docs/preprocessing.jpeg"/>
 
 ## Running the model
 

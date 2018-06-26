@@ -102,7 +102,7 @@
 
 
 
-27. which layers does the OSI model have, but the TCP/IP model doesnít? Session layer and presentation layer
+27. which layers does the OSI model have, but the TCP/IP model doesn‚Äôt? Session layer and presentation layer
 
 
 
@@ -372,7 +372,7 @@
 
 
 
-95. What is the time required to examine the packetís header and determine where to direct the packet is part of? Processing delay
+95. What is the time required to examine the packet‚Äôs header and determine where to direct the packet is part of? Processing delay
 
 
 
@@ -684,7 +684,7 @@
 
 
 
-175. Where does an SMTP deliver messages to? Userís terminal or userís mailbox
+175. Where does an SMTP deliver messages to? User‚Äôs terminal or user‚Äôs mailbox
 
 
 
@@ -708,7 +708,7 @@
 
 
 
-181. what does a Wildcard domain name start with? ë*í label
+181. what does a Wildcard domain name start with? ‚Äò*‚Äô label
 
 
 
@@ -802,7 +802,7 @@
 
 
 
-205. what an extension of an enterpriseís private intranet across a public Network such as the Internet across a public Network such as the Internet, creating a secure private connection? VPN
+205. what an extension of an enterprise‚Äôs private intranet across a public Network such as the Internet across a public Network such as the Internet, creating a secure private connection? VPN
 
 
 
@@ -840,7 +840,7 @@
 
 
 
-215. When were VPNs introduced into the commercial world? Late 90ís
+215. When were VPNs introduced into the commercial world? Late 90‚Äôs
 
 
 
@@ -932,7 +932,7 @@
 
 
 
-238. Control of usersí access to network resources through charges are main responsibilities of which management? Security management
+238. Control of users‚Äô access to network resources through charges are main responsibilities of which management? Security management
 
 
 
@@ -944,7 +944,7 @@
 
 
 
-241. Most text typed is immediately sent to the remote host for processing in which mode? In ìcharacter at a timeî mode
+241. Most text typed is immediately sent to the remote host for processing in which mode? In ‚Äúcharacter at a time‚Äù mode
 
 
 
@@ -1016,7 +1016,7 @@
 
 
 
-259. Bytes of data being transferred in each connection are numbered by TCP, from where do these numbers starts with?  Sequence of zeroís and oneís
+259. Bytes of data being transferred in each connection are numbered by TCP, from where do these numbers starts with?  Sequence of zero‚Äôs and one‚Äôs
 
 
 
@@ -1044,7 +1044,7 @@
 
 
 
-266. In Three-Way Handshaking process, what is the situation called where both the TCPís issue an active open? Simultaneous open
+266. In Three-Way Handshaking process, what is the situation called where both the TCP‚Äôs issue an active open? Simultaneous open
 
 
 
@@ -1064,7 +1064,7 @@
 
 
 
-271. what is the Return value of the UDP port ìChargenî ? String of characters
+271. what is the Return value of the UDP port ‚ÄúChargen‚Äù ? String of characters
 
 
 
@@ -1254,7 +1254,7 @@
 
 
 
-320. what is a web cookie? is a small piece of data sent from a website and stored in userís web browser while a user is browsing a website
+320. what is a web cookie? is a small piece of data sent from a website and stored in user‚Äôs web browser while a user is browsing a website
 
 
 
@@ -1468,7 +1468,7 @@
 
 
 
-375. Which NetWare protocol works on layer 3ñnetwork layeróof the OSI model? IPX
+375. Which NetWare protocol works on layer 3‚Äìnetwork layer‚Äîof the OSI model? IPX
 
 
 
@@ -1476,7 +1476,7 @@
 
 
 
-377.  What does the ìIPX maximum-paths 2î command accomplish? It enables load sharing on 2 paths if the paths are equal metric paths
+377.  What does the ‚ÄúIPX maximum-paths 2‚Äù command accomplish? It enables load sharing on 2 paths if the paths are equal metric paths
 
 
 

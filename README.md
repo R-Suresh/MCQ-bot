@@ -41,9 +41,10 @@ Links to all papers refered in the project
 
 To be added by rahul
 
-## Lematization
+## Text Pre-Processing
 
  To be added by shubham
+ <img src="docs/pre-processing.jpeg"/>
 
 ## Running the model
 

@@ -86,7 +86,7 @@ What is the authoritative source for an address lookup? a recursive DNS search
 
 Which command can you enter to verify that a BGP connection to a remote device is established? show ip bgp summary
 
-If you are configuring syslog messages specifying `logging trap warning’, which log messages will the router send? 0-4
+If you are configuring syslog messages specifying `logging trap warningâ€™, which log messages will the router send? 0-4
 
 What IP SLA ICMP Echo measures? Packet loss
 
@@ -152,7 +152,7 @@ How do you maintain security in multiple websites? vpn
 
 What is new in HSRPv2? a greater number in hsrp group field
 
-What’s are true about MPLS? It use a label to separate traffic from several costumer
+Whatâ€™s are true about MPLS? It use a label to separate traffic from several costumer
 
 A network engineer wants to allow a temporary entry for a remote user with a specific username and password so that the user can access the entire network over the internet. Which ACL can be used? dynamic
 

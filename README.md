@@ -22,6 +22,21 @@ Add neccecary txt files
 
 Links to all papers refered in the project
 
+## Requirements
+
+### Software 
+ ```
+ 1. Tensorflow - 1.8 or higher
+ 2. Keras - 2.0.6 
+ 3. Jupyter notebook
+ 4. matplotlib
+ 5. seaborn
+ 6. nltk
+ 7. gensim
+ ``` 
+### Hardware
+
+ If using ```tensorflow-gpu``` a graphics card is needed
 ## Word embeddings
 
 To be added by rahul

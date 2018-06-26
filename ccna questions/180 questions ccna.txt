@@ -14,7 +14,7 @@ Suppose a TCP connection is transferring a file of 1000 bytes. The first byte is
 
 What is the sequence number of the segment if all data is sent in only one segment.? 10001
 
-Bytes of data being transferred in each connection are numbered by TCP. These numbers starts with a? Sequence of zero’s and one’s
+Bytes of data being transferred in each connection are numbered by TCP. These numbers starts with a? Sequence of zeroâ€™s and oneâ€™s
 
 The value of acknowledgement field in a segment defines? Number of next bytes to receive
 
@@ -28,7 +28,7 @@ The server program tells its TCP that it is ready to accept a connection. This p
 
 The process of, A client that wishes to connect to an open server tells its TCP that it needs to be connected to that particular server is? Active open
 
-In Three-Way Handshaking process, the situation where both the TCP’s issue an active open is? Simultaneous open
+In Three-Way Handshaking process, the situation where both the TCPâ€™s issue an active open is? Simultaneous open
 
 The situation when a malicious attacker sends a large number of SYNC segments to a server, pretending that each of them is coming from a different client by faking the source IP address in the datagrams? SYNC flooding attack
 
@@ -52,7 +52,7 @@ what is the source code if the port number is ephemeral port number ? Client
 
 Total length field in UDP packet header is the length of? UDP header plus data
 
-correct expression for UDP user datagram length is? UDP length = IP length – IP header’s length
+correct expression for UDP user datagram length is? UDP length = IP length â€“ IP headerâ€™s length
 
 The field used to detect errors over the entire user datagram is? Checksum
 
@@ -76,7 +76,7 @@ what is the use of Common gateway interface? generate executable files from web 
 
 URL stands for? uniform resource locator
 
-A web cookie is a small piece of data? sent from a website and stored in user’s web browser while a user is browsing a website
+A web cookie is a small piece of data? sent from a website and stored in userâ€™s web browser while a user is browsing a website
 
 An alternative of javascript on windows platform is? VBScript
 

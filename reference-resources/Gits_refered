@@ -20,3 +20,5 @@ https://github.com/jacobandreas/nmn2 -> DNN for multidomain QA - python + SPS - 
 https://github.com/allenai/deep_qa -> Depriciated - pretrained present
 
 https://github.com/ethancaballero/Improved-Dynamic-Memory-Networks-DMN-plus -> Theano - pretrained present - VQA
+
+https://github.com/ronghanghu/n2nmn -> based of 2017 paper - improvement of model on line 22

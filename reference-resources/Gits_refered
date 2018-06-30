@@ -37,3 +37,5 @@ Includes codes for deep learning architectures aimed at question-answering.GloVe
 https://github.com/amsqr/Allen_AI_Kaggle
 3rd place winner in AI challenge
 
+https://github.com/allenai/aristo-mini
+Aristo mini model - faced codec error - raised issue - hunch is , if we use Linux the codec error could be solved

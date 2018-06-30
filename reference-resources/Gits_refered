@@ -24,6 +24,43 @@ https://github.com/ethancaballero/Improved-Dynamic-Memory-Networks-DMN-plus -> T
 https://github.com/ronghanghu/n2nmn -> based of 2017 paper - improvement of model on line 22
 
 
+# To Sift through
+
+
+The quintessential links ( contain links to other models )
+
+- https://github.com/dapurv5/awesome-question-answering 
+
+ - https://github.com/l11x0m7/Question_Answering_Models
+
+%%%%%%
+ 
+https://github.com/MurtyShikhar/Question-Answering - SQUAD dataset 
+
+https://github.com/syxu828/QuestionAnsweringOverFB - No clue have to check 
+
+https://github.com/marshmelloX/dynamic-coattention-network - squad dataset again
+
+https://github.com/5hirish/adam_qas - lot of issues 
+
+https://github.com/pararthshah/qa-memnn - looks decent - have to see
+
+https://github.com/dapurv5/neural_kbqa - based of movie qa in babi
+
+https://github.com/allenai/deep_qa - build issues 
+
+https://github.com/SnakeHacker/QA-Snake - uses web searching + web qa
+
+https://github.com/quyingqi/kbqa-ar-smcnn -> uses freebase 
+
+https://github.com/RafaelCartenet/MCQbot -> IMPORTANT - check 
+
+https://github.com/jijnasa/KBQA_1 - no clue - check 
+
+https://github.com/zmtkeke/IRN
+
+Search query structure on github : question-answering created:>2018-05-14 language:Python language:Python
+
 
 #BACKUP
 

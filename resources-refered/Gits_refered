@@ -1,14 +1,6 @@
-search queries :- 
-
-MCQ bot
-
-automation testing mcq questions
-
-on github - question and answering
 
 - https://github.com/chagel/CNPROG
 - https://github.com/MurtyShikhar/Question-Answering
-- https://github.com/deepmind/rc-data
 - https://github.com/DeepRNN/visual_question_answering
 - https://github.com/LittleRong/QandA
 - https://github.com/motorny/QandA_machine
@@ -17,14 +9,14 @@ on github - question and answering
 
 https://github.com/ysc/QuestionAnsweringSystem  -> java + chinese - pretrained model present
 
-https://github.com/facebookresearch/DrQA  -> reading unstructured data from wiki and answering - pretrained models present
+https://github.com/facebookresearch/DrQA  -> reading unstructured data from wiki and answering - pretrained models present - linux +GPU
 
 https://github.com/deepmind/rc-data -> data - script to generate QA pairs from CNN Articles
 
-https://github.com/vinhkhuc/MemN2N-babi-python -> python 2.7 - pretrained model present
+https://github.com/vinhkhuc/MemN2N-babi-python -> python 2.7 - pretrained model present - babi
 
-https://github.com/jacobandreas/nmn2 -> DNN for multidomain QA - python + SPS - pretrained  present
+https://github.com/jacobandreas/nmn2 -> DNN for multidomain QA - python + SPS - pretrained  present - VQA
 
 https://github.com/allenai/deep_qa -> Depriciated - pretrained present
 
-https://github.com/ethancaballero/Improved-Dynamic-Memory-Networks-DMN-plus -> Theano - pretrained present
+https://github.com/ethancaballero/Improved-Dynamic-Memory-Networks-DMN-plus -> Theano - pretrained present - VQA

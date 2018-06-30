@@ -22,3 +22,18 @@ https://github.com/allenai/deep_qa -> Depriciated - pretrained present
 https://github.com/ethancaballero/Improved-Dynamic-Memory-Networks-DMN-plus -> Theano - pretrained present - VQA
 
 https://github.com/ronghanghu/n2nmn -> based of 2017 paper - improvement of model on line 22
+
+
+
+#BACKUP
+
+https://github.com/facebookresearch/DrQA
+DrQA treats Wikipedia as a generic collection of articles and does not rely on its internal graph structure.
+As a result, DrQA can be straightforwardly applied to any collection of documents
+
+https://github.com/19rick96/QA
+Includes codes for deep learning architectures aimed at question-answering.GloVe word embeddings have been used.
+
+https://github.com/amsqr/Allen_AI_Kaggle
+3rd place winner in AI challenge
+

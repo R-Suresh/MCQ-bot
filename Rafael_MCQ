@@ -1,0 +1,11 @@
+Link : https://github.com/RafaelCartenet/MCQbot
+
+requirements :
+python =2.7
+nltk
+google
+Try running all files since nothing mentioned in the readme
+Dont think he uses ML .
+Currently facing error :
+from google import google
+ImportError: No module named google

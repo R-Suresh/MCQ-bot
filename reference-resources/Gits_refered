@@ -12,11 +12,9 @@ The quintessential links ( contain links to other models )
 
 %%%%%%
  
-https://github.com/MurtyShikhar/Question-Answering - SQUAD dataset 
 
 https://github.com/syxu828/QuestionAnsweringOverFB - No clue have to check 
 
-https://github.com/marshmelloX/dynamic-coattention-network - squad dataset again
 
 - https://github.com/chagel/CNPROG
 - https://github.com/MurtyShikhar/Question-Answering
@@ -54,7 +52,8 @@ https://github.com/ronghanghu/n2nmn                                          bas
 https://github.com/vinhkhuc/MemN2N-babi-python                               Runs . doesnt satisfy our present purpose,python 2.7 - pretrained model present - babi
 https://github.com/allenai/deep_qa                                           Rejected cause it has build issues 
 https://github.com/5hirish/adam_qas                                          Rejected because it has a lot of build issues 
-
+https://github.com/MurtyShikhar/Question-Answering                           SQUAD dataset . Asked author - awaiting response 
+https://github.com/marshmelloX/dynamic-coattention-network                   squad dataset again. Mailed author - awaiting response
 ____________________________________________________________________________________________________________________________________________
 #BACKUP
 

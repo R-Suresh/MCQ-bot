@@ -14,12 +14,8 @@ The quintessential links ( contain links to other models )
  
 
 https://github.com/syxu828/QuestionAnsweringOverFB - No clue have to check 
-
-
-- https://github.com/chagel/CNPROG
-- https://github.com/MurtyShikhar/Question-Answering
+ 
 - 
-- https://github.com/LittleRong/QandA
 - https://github.com/motorny/QandA_machine
 - https://github.com/zacharyMatthewstearn/Epicodus-JS-3.5-qAndA
 
@@ -27,9 +23,6 @@ https://github.com/pararthshah/qa-memnn - looks decent - have to see
 
 https://github.com/dapurv5/neural_kbqa - based of movie qa in babi
 
-
-
-https://github.com/SnakeHacker/QA-Snake - uses web searching + web qa
 
 https://github.com/quyingqi/kbqa-ar-smcnn -> uses freebase 
 
@@ -54,6 +47,9 @@ https://github.com/allenai/deep_qa                                           Rej
 https://github.com/5hirish/adam_qas                                          Rejected because it has a lot of build issues 
 https://github.com/MurtyShikhar/Question-Answering                           SQUAD dataset . Asked author - awaiting response 
 https://github.com/marshmelloX/dynamic-coattention-network                   squad dataset again. Mailed author - awaiting response
+https://github.com/chagel/CNPROG                                             Some random web application . Doesnt use ML
+https://github.com/LittleRong/QandA                                          PHP we application , no ML
+https://github.com/SnakeHacker/QA-Snake                                      uses web searching + web qa
 ____________________________________________________________________________________________________________________________________________
 #BACKUP
 

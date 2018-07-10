@@ -1,0 +1,567 @@
+one or two computers, while very large institutions
+had at most a few dozen. The idea that within forty years vastly more powerful computers smaller than postage stamps would be mass produced by the billions was pure science fiction.
+The merging of computers and communications has had a profound influence
+on the way computer systems are organized. The once-dominant concept of the
+‘‘computer center’’ as a room with a large computer to which users bring their
+work for processing is now totally obsolete (although data centers holding thou-
+sands of Internet servers are becoming common). The old model of a single com-
+puter serving all of the organization’s computational needs has been replaced by one in which a large number of separate but interconnected computers do the job.
+These systems are called computer networks. The design and organization of
+these networks are the subjects of this book.
+Throughout the book we will use the term ‘‘computer network’’ to mean a col-
+lection of autonomous computers interconnected by a
+single technology. Two computers are said to be interconnected if they are able to exchange information.
+The connection need not
+be via a copper wire; fiber optics, microwaves, infrared,
+and communication
+satellites can
+also be used. Networks come in many sizes,
+shapes and forms, as we will see
+later. They are usually
+connected
+together to
+make larger networks, with the
+Internet
+being the most well-known
+example of a
+network of networks.
+There is considerable confusion in the
+literature
+between a computer network
+and a
+distributed system
+. The key distinction is that in a distributed system, a
+collection of independent computers appears to its users as a single coherent sys-
+tem. Usually, it has a single model or paradigm that it presents to the users. Of-
+ten a layer of software on top of the operating system, called
+middleware
+,is
+responsible for
+implementing this model.
+A well-known example
+of a distributed
+system is the
+World Wide Web
+. It runs on top of the Internet and presents a
+model in which everything looks like a document (Web page).
+In a computer network, this coherence, model, and software are absent. Users
+are exposed to the actual machines, without any attempt by the system to make
+the machines look and act in a coherent way. If the machines have different hard-
+ware and different operating systems, that is fully visible to the users. If a user wants to run a program on a remote machine, he
+has to log onto that machine and
+run it there.
+In effect, a distributed system is a software system built on top of a network.
+The software gives it a high degree of cohesiveness and transparency. Thus, the
+distinction between a network and a distributed system lies with the software (especially the operating system), rather than with the hardware.
+Nevertheless, there is considerable overlap between the two subjects. For ex-
+ample, both distributed systems and computer networks need to move files
+around. The difference lies in who invokes the movement, the system or the user.
+‘‘He’’ should be read as ‘‘he or she’’ throughout this book.
+Although this book primarily focuses on networks, many of the topics are also im-
+portant in distributed systems. For more information about distributed systems,
+see Tanenbaum and Van Steen (2007).
+1.1 USES OF COMPUTER NETWORKS
+Before we start to examine the technical issues in detail, it is worth devoting
+some time to pointing out why people are interested in computer networks and
+what they can be used for. After all, if nobody were interested in computer net-
+works, few of them would be built. We
+will start with traditional uses at com-
+panies, then move on to home
+networking and
+recent
+developments regarding
+mobile users, and finish with social issues.
+1.1.1 Business Applications
+Most companies have a substantial number of computers. For example, a
+company may have a computer
+for each
+worker and use them to design products,
+write brochures, and do the payroll. I
+nitially, some of these
+computers may have
+worked in isolation from the others, but at some point, management may have
+decided to
+connect them to be
+able to distribute information throughout the com-
+pany.
+Put in slightly more general form, the issue here is
+resource
+sharing
+. The
+goal is to make all programs, equipment, and especially data available to anyone
+on the network without regard
+to the physical location of
+the resource or the user.
+An obvious and widespread example is having a group of office workers share a
+common printer. None of the individuals really needs a private printer, and a
+high-volume networked printer is often cheaper, faster, and easier to maintain
+than a large collection of individual printers.
+However, probably even more important
+than sharing physical
+resources such
+as printers, and tape backup systems, is sharing information. Companies small
+and large are vitally dependent on computerized information. Most companies
+have customer records, product information, inventories, financial statements, tax
+information, and much more online. If all of its computers suddenly went down, a
+bank could not last more than five minutes. A modern manufacturing plant, with
+a computer-controlled assembly line, would not last
+even 5 seconds. Even a small
+travel agency or three-person law firm is now highly dependent on computer net-
+works for allowing employees to
+access
+relevant information and documents
+instantly.
+For smaller companies, all the computers are likely to be in a single office or
+perhaps a single building, but for larger ones, the computers and employees may
+be scattered over dozens of offices and plants in many countries. Nevertheless, a
+sales person in New York might sometimes
+need access
+to a product inventory
+4
+INTRODUCTION
+CHAP. 1
+database in Singapore. Networks called
+VPNs
+(
+Virtual Private Networks
+) may
+be used to join the individual networks at different sites into one extended net-
+work. In other words, the mere fact that a user happens to be 15,000 km away
+from his data should not prevent him from using the data as though they were
+local. This goal may be summarized by saying that it is an attempt to end the
+‘‘tyranny of geography.’’
+In the simplest of terms, one can imagine a company’s information system as
+consisting of one or more databases with company information and some number
+of employees who need to
+access them
+remotely. In this model, the data are stor-
+ed on powerful computers called
+servers
+. Often these are centrally housed and
+maintained by a system administrator. In contrast, the employees have simpler
+machines, called
+clients
+, on their desks, with which
+they access
+remote data, for
+example, to include in spreadsheets they are constructing. (Sometimes we will
+refer to the human user of the client machine as the ‘‘client,’’ but it should be
+clear from the context whether we mean the computer or its user.) The client and
+server machines are
+connected by a
+network, as
+illustrated in Fig.
+1-1. Note that
+we have shown the network as a simple oval, without any detail. We will use this
+form when we mean a network in the most abstract sense. When more detail is
+required, it will be provided.
+Client
+Server
+Network
+Figure 1-1.
+A network with two clients and one server.
+This whole arrangement is called the
+client-server model
+. It is widely used
+and forms the basis of much network usage. The most popular realization is that
+of a
+Web application
+, in which the server generates Web pages based on its data-
+base in response to client
+requests that may update
+the database. The client-server
+model is applicable when the client and server are both in the same building (and
+belong to the same company), but also when they are far apart. For example,
+when a person at
+home accesses a p
+age on the World Wide Web, the same model
+is employed, with the remote Web server being the server and the user’s personal
+SEC. 1.1
+USES OF COMPUTER NETWORKS
+5
+computer being the client. Under
+most conditions, one server can handle a large
+number (hundreds or thousands) of clients simultaneously.
+If we look at the client-server model in detail, we see that two processes (i.e.,
+running programs) are involved, one on the client machine and one on the server
+machine. Communication takes the form of the client process sending a message
+over the network to the server process. The client process then waits for a reply
+message. When the server process gets the request, it performs the requested
+work or looks up the requested data and sends back a reply. These messages are
+shown in Fig. 1-2.
+Client process
+Server process
+Client machine
+Network
+Reply
+Request
+Server machine
+Figure 1-2.
+The client-server model involves requests and replies.
+A second goal of setting up a computer network has to do with people rather
+than information or even computers. A computer network can provide a powerful
+communication medium
+among employees. Virtually every company that has
+two or more computers now has
+email
+(
+electronic mail
+), which employees gener-
+ally use for a great deal of daily communication. In fact, a common gripe around
+the water cooler is how much
+email everyone has to
+deal with, much of it quite
+meaningless
+because
+bosses have discovered that they can send the same (often
+content-free)
+message to all their
+subordinates at the push
+of a button.
+Telephone calls
+between employees may be carried by the computer network
+instead of by the phone
+company. This technology is called
+IP telephony
+or
+Voice over IP
+(
+VoIP
+) when Internet technology is used. The microphone and
+speaker at
+each end may belong
+to a VoIP-enabled phone or the employee’s com-
+puter. Companies find this a wonderful way
+to save on
+their telephone bills.
+Other, richer forms of communication are made possible by computer net-
+works. Video can be added to audio so that employees at distant locations can see
+and hear each
+other as they hold a meeting. This technique is a powerful tool for
+eliminating the cost and time previously devoted to travel.
+Desktop sharing
+lets
+remote workers see and interact with a graphical computer screen. This makes it
+easy for two or more people who work far apart to read and write a shared black-
+board or write a report together. When one worker makes a change to an online
+document, the others can see the
+change immediately, instead
+of waiting several
+days for a letter. Such a speedup
+makes cooperation among far-flung groups of
+people easy where it
+previously had been impossible.
+More ambitious forms of
+remote coordination such as telemedicine are only now starting to be used (e.g.,
+6
+INTRODUCTION
+CHAP. 1
+remote patient monitoring) but may become much more important. It is some-
+times said that communication and transportation
+are having a
+race, and
+which-
+ever wins will make the other obsolete.
+A third goal for many companies is doing business electronically, especially
+with customers and suppliers. This
+new model is called
+e-commerce
+(
+electronic
+commerce
+) and it has grown rapidly
+in recent
+years. Airlines, bookstores, and
+other retailers have discovered that many
+customers like the
+convenience of shop-
+ping from home. Consequently, many companies provide catalogs of their goods
+and services online and take orders online. Manufacturers of automobiles, air-
+craft, and computers, among others, buy subsystems from a variety of suppliers
+and then assemble the parts. Using
+computer networks, manufacturers
+can place
+orders electronically as needed. This reduces the need for large inventories and
+enhances efficiency.
+1.1.2 Home Applications
+In 1977, Ken Olsen was president of the Digital Equipment Corporation, then
+the number two computer vendor in the world (after IBM). When asked why Dig-
+ital was not going after the personal computer market in a big way, he said:
+‘‘There is no reason for any individual to have a computer in his home.’’ History
+showed otherwise and Digital no longer exists. People
+initially bought computers
+for word processing and
+games. Recently,
+the biggest reason to buy a home com-
+puter was probably for
+Internet
+access. Now,
+many consumer electronic devices,
+such as set-top boxes, game consoles, and clock radios, come with embedded
+computers and computer networks, especially wireless networks, and home net-
+works are broadly used for entertainment, including listening to, looking at, and
+creating music, photos, and videos.
+Internet
+access
+provides home users with
+connectivity
+to remote computers.
+As with companies, home users can
+access
+information, communicate with other
+people, and buy products and services with e-commerce. The main benefit now
+comes from connecting
+outside of the home. Bob Metcalfe, the inventor of Ether-
+net, hypothesized that the
+value of a network is proportional
+to the square of the
+number of users
+because this
+is roughly the number
+of different
+connections that
+may be made (Gilder, 1993). This hypothesis is known as ‘‘Metcalfe’s law.’’ It
+helps to explain how the tremendous popula
+rity of the Internet comes from its
+size.
+Access to
+remote information comes in many forms. It can be surfing the
+World Wide Web for information or just for fun. Information available includes
+the arts, business, cooking, government,
+health, history, hobbies, recreation, sci-
+ence, sports, travel, and many others. Fun comes in too many ways to mention,
+plus some ways that are better left unmentioned.
+Many newspapers have gone online and can be personalized. For example, it
+is sometimes possible to tell a newspaper that you want everything about corrupt
+SEC. 1.1
+USES OF COMPUTER NETWORKS
+7
+politicians, big
+fires, scandals involving
+celebrities, and
+epidemics, but no foot-
+ball, thank you. Sometimes it is possible to have the selected articles downloaded
+to your computer while you sleep. As this trend continues, it will cause massive
+unemployment among 12-year-old paperboys, but
+newspapers like it
+because dis-
+tribution has always been the weakest link in the whole production chain. Of
+course, to make this model work, they will first have to figure out how to make
+money in this new world, something not entirely obvious since Internet users
+expect everything to be free.
+The next step beyond newspapers (plus magazines and scientific journals) is
+the online digital library. Many professional organizations, such as the ACM
+(
+www.acm.org
+) and the IEEE
+Computer Society (
+www.computer.org
+), already
+have all their journals and conference
+proceedings online.
+Electronic book read-
+ers and online libraries may make printed books obsolete. Skeptics should take
+note of the effect the printing press
+had on the
+medieval illuminated
+manuscript.
+Much of this information
+is accessed
+using the client-server model, but there
+is different, popular model for
+accessing
+information that goes by the name of
+peer-to-peer
+communication (Parameswaran et al., 2001). In this form, individu-
+als who form a loose group can communicate with others in the group, as shown
+in Fig. 1-3. Every person can, in principle, communicate with one or more other
+people; there is no fixed division into clients and servers.
+Figure 1-3.
+In a peer-to-peer system there are no fixed clients and servers.
+Many peer-to-peer systems, such BitTorrent (Cohen, 2003), do not have any
+central database of content.
+Instead,
+each user
+maintains his own database locally
+and provides a list of other nearby people who are members of the system. A new
+user can then go to any existing member to see what he has and get the names of
+other members to inspect for more content and more names. This lookup process
+can be repeated indefinitely to build up a large local database of what is out there.
+It is an activity that would get tedious for people but computers excel at it.
+8
+INTRODUCTION
+CHAP. 1
+Peer-to-peer communication is often used to share music and videos. It really
+hit the big time around 2000 with a music sharing service called Napster that was
+shut down after what was probably the biggest copyright infringement case in all
+of recorded history (Lam and Tan, 2001
+; and Macedonia,
+2000). Legal applica-
+tions for peer-to-peer communication also exist. These include fans sharing pub-
+lic domain music,
+families sharing
+photos and movies, and users downloading
+public software packages. In fact, one of the most popular Internet applications
+of all, email, is inherently peer-to-peer. This form of communication is likely to
+grow considerably in the future.
+All of the above applications involve interactions between a person and a re-
+mote database full of information. The second
+broad category of network use is
+person-to-person communication, basically the 21st century’s answer to the 19th
+century’s
+telephone. E-mail is
+already used on a daily basis by millions of people
+all over the world and its use is growing rapidly. It already routinely contains
+audio and video as well as text and pictures. Smell may take a while.
+Any teenager worth his or her salt is addicted to
+instant messaging
+. This
+facility, derived
+from the
+UNIX
+talk
+program in use since around 1970, allows two
+people to type messages at
+each other in
+real time. There
+are multi-person mes-
+saging services too, such as the
+Twitter
+service that lets people send short text
+messages called ‘‘tweets’’ to their circle of friends or other willing audiences.
+The Internet can be used by applications to carry audio (e.g., Internet radio
+stations) and video (e.g., YouTube). Besides being a cheap way to call to distant
+friends, these applications can provide rich experiences such as telelearning,
+meaning attending 8
+A
+.
+M
+. classes without the
+inconvenience of
+having to get out
+of bed first. In the long run, the use of networks to enhance human-to-human
+communication may prove more important than any of the others. It may become
+hugely important to people who are geographically challenged, giving them the
+same access
+to services as people living in the middle of a big city.
+Between person-to-person communications and
+accessing
+information are
+social network
+applications. Here, the flow of information is driven by the rela-
+tionships that people declare between
+each other.
+One of the most popular social
+networking sites is
+Facebook
+. It lets people update
+their personal profiles and
+shares the updates with other
+people who they have declared to be their friends.
+Other social networking applications can
+make introductions via friends of
+friends, send news messages to friends such
+as Twitter above,
+and much more.
+Even more loosely, groups of people can work together to create content. A
+wiki
+, for example, is a collaborative Web site that the members of a community
+edit. The most famous wiki is the
+Wikipedia
+, an encyclopedia anyone can edit,
+but there are thousands of other wikis.
+Our third category is electronic commerce in the broadest sense of the term.
+Home shopping is already popular and enables users to inspect the online catalogs
+of thousands of companies. Some of these catalogs are interactive, showing pro-
+ducts from different viewpoints and in configurations that can be personalized.
+SEC. 1.1
+USES OF COMPUTER NETWORKS
+9
+After the customer buys a product electronically
+but cannot figure out how to use
+it, online technical support may be consulted.
+Another area in which e-commerce is widely
+used is
+access to
+financial insti-
+tutions. Many people already pay their
+bills, manage their
+bank accounts, and
+handle their investments electronically.  This trend will surely continue as net-
+works become more secure.
+One area that virtually nobody foresaw
+is electronic flea
+markets
+(e-flea?).
+Online auctions of second-hand goods have become a massive industry. Unlike
+traditional
+e-commerce, which follows the client-server model, online auctions
+are peer-to-peer in the sense that consumers can act as both buyers and sellers.
+Some of these forms of e-commerce have
+acquired cute little
+tags based on
+the fact that ‘‘to’’ and ‘‘2’’ are pronounced the same. The most popular ones are
+listed in Fig. 1-4.
+Tag
+Full name
+Example
+B2C
+Business-to-consumer
+Ordering books online
+B2B
+Business-to-business
+Car
+manufacturer ordering tires from supplier
+G2C
+Government-to-consumer
+Government distributing tax forms electronically
+C2C
+Consumer-to-consumer
+Auctioning second-hand products online
+P2P
+Peer-to-peer
+Music sharing
+Figure 1-4.
+Some forms of e-commerce.
+Our fourth category is entertainment. This has made huge strides in the home
+in recent
+years, with the distribution of music, radio and television programs, and
+movies over the Internet beginning to
+rival that of
+traditional
+mechanisms. Users
+can find, buy, and download MP3 song
+s and DVD-quality movies
+and add them
+to their personal collection. TV shows
+now reach
+many homes via
+IPTV
+(
+IP
+TeleVision
+) systems that are based on IP
+technology instead of cable TV or radio
+transmissions. Media streaming applications let users tune into Internet radio sta-
+tions or watch
+recent
+episodes of their favorite TV shows. Naturally, all of this
+content can be moved around your house between different devices, displays and
+speakers, usually with a wireless network.
+Soon, it may be possible to search for any movie or television program ever
+made, in any country, and have it displayed on your screen instantly. New films
+may become interactive, where the user
+is occasionally
+prompted for the story
+direction (should Macbeth murder Duncan or just bide his time?) with alternative
+scenarios provided for all cases. Live television may also become interactive,
+with the audience participating in quiz shows, choosing among contestants, and so
+on.
+Another form of entertainment is game
+playing. Already we have multiperson
+real-time simulation games, like hide-and-seek in a virtual dungeon, and flight
+10
+INTRODUCTION
+CHAP. 1
+simulators with the players on one team trying to shoot down the players on the
+opposing team. Virtual worlds provide a persistent sett

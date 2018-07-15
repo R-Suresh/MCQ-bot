@@ -64,27 +64,5 @@ Problem with RNNs in general is the vanishing gradient problem. While LSTMs addr
 
 <img src="docs/qa-lstm-attn.png"/>
 
-### Incorporating External Knowledge
-
-Based on the competition message boards, there seems to be general consensus that external content is okay to use. Here are some mentioned:
-
-* [ConceptNet](http://conceptnet5.media.mit.edu/)
-* [CK-12 books](http://www.ck12.org/student/)
-* [Quizlets](https://quizlet.com/)
-* [Studystack Flashcards](http://www.studystack.com/)
-
-Most of the contents mentioned involve quite a lot of effort to scrape/crawl the sites and parse the crawled content. There was one content source (Flashcards from StudyStack) that was [available here](https://drive.google.com/file/d/0B0fFJSGDUPcgUFJpTVl3QXhnNTQ/view?usp=sharing) in pre-parsed form, so I used that. This gave me 400k flashcard records, questions followed by the correct answer. I thought of this as the "story" from the bAbI context.
-
-<img src="docs/flashcard-format.png"/>
-
-### QA-LSTM with Attention and Custom Embedding
-
-My first attempt at incorporating the story was to replace the embedding from the pre-trained Word2Vec model with a Word2Vec model generated using the Flashcard data. This created a smaller, more compact embedding and gave me quite a good boost in accuracy.
-
-| Model                              | Default Embedding | Story Embedding |
-| -----------------------------------| ----------------- | --------------- |
-| QA-LSTM w/Attention                | 62.93%            | 76.27%          |
-| QA-LSTM bidirectional w/Attention  | 60.43%            | 76.27%          |
-
-The qa-lstm-fem-attn model(s) are identical to the qa-lstm-attn model(s) except for the embedding used - instead of the default embedding from Word2Vec, I am now using a custom embedding from the flashcard data.
+Image adapted from online resources 
 

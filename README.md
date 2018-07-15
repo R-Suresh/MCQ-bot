@@ -10,8 +10,6 @@ Also make sure the modified file at each stage is in ansi encoding
 Added notes about possible architecture to model_architecture.txt
 
 Furthermore the question bank is added, the number of questions in each file indicated by the title of the file
-## Overall model architecture
-![qa-lstm-attn](https://user-images.githubusercontent.com/36242729/41887663-549e80f0-791f-11e8-889c-3237ceab283e.png)
 
 ## Updates
 
@@ -55,14 +53,17 @@ Go to the exam-bot-ccna directory, then run the following files:
 1. flashcard-embedding.ipynb
 2. qa-blstm-fem-attn.ipynb
 
+Parts of code adapted from open source online resources
+
 ## Current Model
 
 
 ### QA-LSTM with Attention
 
-Problem with RNNs in general is the vanishing gradient problem. While LSTMs address the problem, they still suffer from it because of the very long distances involved in QA contexts. The solution to this is attention, where the network is forced to look at certain parts of the context and ignore (in a relative sense) everything else.
+RNN's in the model are improved using LSTM and GRU units
 
-<img src="docs/qa-lstm-attn.png"/>
+![qa-lstm-attn](https://user-images.githubusercontent.com/36242729/41887663-549e80f0-791f-11e8-889c-3237ceab283e.png)
+
 
 Image adapted from online resources 
 
